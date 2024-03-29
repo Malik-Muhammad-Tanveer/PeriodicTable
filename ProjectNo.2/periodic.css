@@ -220,6 +220,33 @@ span {
     font-weight: lighter;
 }
 
+.line::before {
+    position:absolute;
+    top: -17px;
+    left: 50%;
+    /* font-size: 0.9em; */
+    content: '';
+    transform: rotate(-180deg);
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+     width: 85%;
+    height: 21%;
+    /* opacity: 0.6; 
+    margin-top: 3px; */
+}
 
+.line2::before {
+    position:absolute;
+    top: -17px;
+    left: -6px;
+    content: '';
+    transform: rotate(-180deg);
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 85%;
+    height: 21%;
+    /* opacity: 0.6;
+    margin-top: 3px; */
+}
 
 
